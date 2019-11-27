@@ -11,4 +11,6 @@ def index():
   status = (title, heading,now.strftime("%A, %d-%m-%Y : %H:%M"))
 
   return status
-index()
+
+message = index()
+print(message)
