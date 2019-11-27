@@ -10,5 +10,5 @@ def index():
   heading = "Current date and time is "
   status = (title, heading,now.strftime("%A, %d-%m-%Y : %H:%M"))
 
-  return (title)
+  return (title, heading)
 index()
