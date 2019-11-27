@@ -7,7 +7,7 @@ def index():
  
   title = "Hello World!"
   now = datetime.datetime.now()
-  status = "Current date and time is ", now.strftime("%A, %d-%m-%Y : %H:%M")
+  status = now.strftime("%A, %d-%m-%Y : %H:%M")
 
   return status
 
