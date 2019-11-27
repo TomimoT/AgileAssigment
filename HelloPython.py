@@ -11,3 +11,4 @@ def index():
   print(now.strftime("%A, %d-%m-%Y : %H:%M"))
 
   return 'hello, new concept'
+index()
