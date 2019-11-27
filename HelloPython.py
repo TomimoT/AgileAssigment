@@ -10,5 +10,5 @@ def index():
   print("Current date and time is ")
   print(now.strftime("%A, %d-%m-%Y : %H:%M"))
 
-  return 'hello, new concept'
+  return (now.strftime("%A, %d-%m-%Y : %H:%M"))
 index()
