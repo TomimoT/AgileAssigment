@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route('/')
-def index():
-  print('How are u')
-  return 'hello, new concept'
-
+import datetime
+print("Hello World!")
+now = datetime.datetime.now()
+print("Current date and time is ")
+print(now.strftime("%A, %d-%m-%Y : %H:%M"))
