@@ -9,7 +9,7 @@ def index():
   now = datetime.datetime.now()
   status = now.strftime("%A, %d-%m-%Y : %H:%M")
 
-  return status/
+  return status
 
 message = index()
 print(message)
