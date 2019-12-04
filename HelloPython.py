@@ -6,7 +6,7 @@ app = Flask(__name__)
 def index():
 
   title = "Hello World!"
-  now = datetime.datetime.now
+  now = datetime.datetime.now)
   status = now.strftime("%A, %d-%m-%Y : %H:%M")
 
   return status
