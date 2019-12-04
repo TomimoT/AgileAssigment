@@ -7,9 +7,9 @@ def index():
  
   title = "Hello World!"
   now = datetime.datetime.now()
-  status = now.strftime("%A, %d-%m-%Y : %H:%M")
+  statu = now.strftime("%A, %d-%m-%Y : %H:%M")
 
-  return status
+  return statu
 
 message = index()
 print(message)
